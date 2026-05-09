@@ -17,6 +17,12 @@ export function SiteHeader() {
         </Link>
 
         <nav className="flex items-center gap-1 font-mono text-xs">
+          <Link
+            href="/minigame"
+            className="rounded-md px-3 py-1.5 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+          >
+            minigame
+          </Link>
           <a
             href="https://github.com/mehranmisaghi/cybersecurity"
             target="_blank"

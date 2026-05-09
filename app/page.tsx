@@ -46,10 +46,6 @@ export default function HomePage() {
                   flashcards
                 </span>
               </div>
-              <div className="flex items-center gap-2">
-                <Sparkles className="size-3.5 text-primary" />
-                <span>atalhos de teclado</span>
-              </div>
             </div>
           </div>
         </div>
