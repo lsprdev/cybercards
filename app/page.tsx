@@ -84,7 +84,14 @@ export default function HomePage() {
           <div>
             <span className="text-primary">cybercards</span>
           </div>
-          <div>$ pratique todos os dias --consistencia</div>
+          <a
+            href="https://github.com/lsprdev"
+            target="_blank"
+            rel="noreferrer"
+            className="transition-colors hover:text-foreground"
+          >
+            made by <span className="text-primary">lsprdev</span>
+          </a>
         </div>
       </footer>
     </div>
